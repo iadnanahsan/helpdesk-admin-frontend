@@ -1326,7 +1326,7 @@
                             <!-- table -->
                             <div class="row mb-3">
                                 <div class="col-12">
-                                    <div class="table-responsive shadow rounded">
+                                    <div class="table-responsive shadow_light rounded">
                                         <table class="table table-borderless mb-0" style="min-width: 700px;">
                                             <thead>
                                                 <tr>
@@ -1483,6 +1483,94 @@
                                                         </div>
                                                     </td>
                                                     <td valign="middle" class="border-bottom border_light py-3">
+                                                        <div class="d-flex flex-row gap-2">
+                                                            <button
+                                                                class="btn border_light radius_8 focus_none rounded-3 text_green"
+                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"
+                                                                >
+                                                                <i class="fa fa-pen font_sm"></i>
+                                                            </button>
+                                                            <button
+                                                                class="btn focus_none border_light radius_8 rounded-3 text_darkred"
+                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"
+                                                                >
+                                                                <i class="fa fa-trash-alt font_sm"></i>
+                                                            </button>
+                                                            <button
+                                                                class="btn focus_none border_light radius_8 rounded-3 text_primary"
+                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Preview"
+                                                                >
+                                                                <i class="fa fa-lock font_sm"></i>
+                                                            </button>
+                                                            <button
+                                                                class="btn focus_none border_light radius_8 rounded-3 text_yellow"
+                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Preview"
+                                                                >
+                                                                <i class="fa fa-external-link font_sm"></i>
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="middle" class="py-3">
+                                                        <input type="checkbox" class="form-check">
+                                                    </td>
+                                                    <td valign="middle" class="py-3">
+                                                        <p class="text_darkgrey fw_600 font_sm">1</p>
+                                                    </td>
+                                                    <td valign="middle" class="py-3">
+                                                        <p class="text_darkgrey fw_600 font_sm">Test</p>
+                                                        <div>
+                                                            <span class="text_darkgrey font_sm pe-3 border-end border_light no_break"
+                                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Ticket ID">SPG-1</span>
+                                                            <span
+                                                                class="text_darkgrey ps-2 pe-3 font_sm border-end border_light no_break"
+                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Open Date"
+                                                                >
+                                                                <i class="fa fa-clock pe-1"></i>
+                                                                01 Feb,2023
+                                                            </span>
+                                                            <span
+                                                                class="font_sm pe-3 ps-2 text_darkgrey border-end border_light no_break"
+                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Category"
+                                                                >
+                                                                <i class="fa fa-th pe-1"></i>
+                                                                Ticket Support
+                                                            </span>
+                                                            <span class="text_darkgrey ps-2 font_sm border_light no_break"
+                                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Date Created"
+                                                            >
+                                                                <i class="fa fa-clock pe-1"></i>
+                                                                1 week ago
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                    <td valign="middle" class="py-3">
+                                                        <p class="text_darkgrey font_sm">Guest</p>
+                                                    </td>
+                                                    <td valign="middle" class="py-3">
+                                                        <button
+                                                            class="border_light fw_600 radius_8 btn focus_none font_sm text_primary">
+                                                            New
+                                                        </button>
+                                                    </td>
+                                                    <td valign="middle" class="py-3">
+                                                        <div class="dropdown me-2">
+                                                            <button class="btn bg_transparent radius_8 fw_500 font_sm focus_none text_primary border_light hover_lightgrey dropdown-toggle" type="button"
+                                                                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                                                Assign
+                                                            </button>
+                                                            <ul class="dropdown-menu border-0 shadow radius_8" aria-labelledby="language select">
+                                                                <li><button role="button"
+                                                                        class="border-0 bg_transparent text-start primary_hover px_12 show_check green_check bg_active_light fw_600 hover_fw_600 font_sm position-relative py-2 text_darkgrey w-100"
+                                                                        >Self Assign</button></li>
+                                                                <li><button role="button"
+                                                                        class="border-0 bg_transparent text-start primary_hover px_12 position-relative py-2 text_darkgrey font_sm hover_fw_600 w-100"
+                                                                        >Other Assign</button></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                    <td valign="middle" class="py-3">
                                                         <div class="d-flex flex-row gap-2">
                                                             <button
                                                                 class="btn border_light radius_8 focus_none rounded-3 text_green"
