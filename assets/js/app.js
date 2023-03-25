@@ -120,10 +120,6 @@ dropdownContainers.forEach(item => {
             btn.classList.remove('open');
             dropDownContainer.classList.remove('show');
         } else {
-            dropdownContainers.forEach(x => {
-                x.childNodes[1].classList.remove('open');
-                x.childNodes[3].classList.remove('show');
-            });
             btn.classList.add('open');
             dropDownContainer.classList.add('show');
         }
@@ -137,6 +133,12 @@ window.addEventListener('click', function (e) {
             mainMenu.classList.remove('mobile_menu_open');
         }
     }
+    dropdownContainers.forEach(x => {
+        if (!x.contains(e.target)) {
+            x.childNodes[1].classList.remove('open');
+            x.childNodes[3].classList.remove('show');
+        }
+    });
 });
 
 
