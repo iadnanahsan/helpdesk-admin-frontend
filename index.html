@@ -1117,7 +1117,7 @@
                     <div class="container-fluid pt-3">
                         <div class="row g-2">
                             <div class="col-lg-4 col-md-6 col-12">
-                                <h6 class="mb-2">General Tickets</h6>
+                                <h6 class="mb-3 fw_600">General Tickets</h6>
                                 <div class="az_flex_wrapper d-flex gap-2">
                                     <a href="#" class="card border-0 radius_8 green p-3">
                                         <div class="icon_wrapper mb-2">
@@ -1166,7 +1166,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-8 col-md-6 col-12">
-                                <h6 class="mb-2 mt-md-auto mt-2">Self Tickets</h6>
+                                <h6 class="mb-3 mt-md-auto mt-2 fw_600">Self Tickets</h6>
                                 <div class="az_flex_wrapper d-flex gap-2">
                                     <a href="#" class="card border-0 radius_8 blue p-3">
                                         <div class="icon_wrapper mb-2">
@@ -1266,7 +1266,7 @@
                         <div class="card border-0 radius_8 p-3">
                             <div class="row">
                                 <div class="col-12">
-                                    <h6 class="mb-2 border-bottom pb-3">Ticket Summary</h6>
+                                    <h6 class="mb-2 border-bottom pb-3 fw_600">Ticket Summary</h6>
                                 </div>
                             </div>
                             <!-- filters -->
@@ -1274,32 +1274,42 @@
                                 <div class="col-md-8 col-sm-12">
                                     <div class="d-flex align-items-center flex-wrap gap-2 justify-content-start">
                                         <div class="az_per_page d-flex align-items-center gap-2 justify-content-start">
-                                            <span class="no_break font-14">Show entries</span>
+                                            <span class="no_break font_sm">Show entries</span>
                                             <div class="dropdown">
-                                                <button class="btn bg_transparent radius_8 font_md fw_500 focus_none text_darkgrey border_light hover_lightgrey dropdown-toggle" type="button"
-                                                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-                                                    <span class="pe-5 font-14">10</span>
+                                                <button
+                                                    class="btn bg_transparent radius_8 font_md fw_500 focus_none text_darkgrey border_light hover_lightgrey dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"
+                                                    aria-expanded="false">
+                                                    <span class="pe-5">10</span>
                                                 </button>
-                                                <ul class="dropdown-menu border-0 shadow radius_8" style="min-width:120px" aria-labelledby="language select">
+                                                <ul class="dropdown-menu border-0 shadow radius_8"
+                                                    style="min-width:120px" aria-labelledby="language select">
                                                     <li><button role="button"
-                                                            class="border-0 bg_transparent text-start primary_hover px_12 show_check green_check bg_active_light fw_600 font_md position-relative py-2 text_darkgrey w-100"
-                                                            ><span class="hover_fw_600">10</span></button></li>
+                                                            class="border-0 bg_transparent text-start primary_hover px_12 show_check green_check bg_active_light fw_600 font_md position-relative py-2 text_darkgrey w-100"><span
+                                                                class="hover_fw_600">10</span></button></li>
                                                     <li><button role="button"
-                                                            class="border-0 bg_transparent text-start primary_hover px_12 position-relative py-2 text_darkgrey font_md w-100"
-                                                            ><span class="hover_fw_600">25</span></button></li>
+                                                            class="border-0 bg_transparent text-start primary_hover px_12 position-relative py-2 text_darkgrey font_md w-100"><span
+                                                                class="hover_fw_600">25</span></button></li>
                                                     <li><button role="button"
-                                                            class="border-0 bg_transparent text-start primary_hover px_12 position-relative py-2 text_darkgrey font_md w-100"
-                                                            >50</button></li>
+                                                            class="border-0 bg_transparent text-start primary_hover px_12 position-relative py-2 text_darkgrey font_md w-100">50</button>
+                                                    </li>
                                                     <li><button role="button"
-                                                            class="border-0 bg_transparent text-start primary_hover px_12 position-relative py-2 text_darkgrey font_md w-100"
-                                                            >100</button></li>
+                                                            class="border-0 bg_transparent text-start primary_hover px_12 position-relative py-2 text_darkgrey font_md w-100">100</button>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <button role="button" class="btn border hover_lightgrey radius_8 focus_none">
-                                            <div class="font-14 text_darkred">
-                                                <i class="fa fa-trash pe-1"></i>
-                                                <span>Delete</span>
+                                            <div class="font_md text_darkred">
+                                                <div class="icon_wrapper d-inline pe-1">
+                                                    <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M9.33268 5.5V13.8333H2.66602V5.5H9.33268ZM8.08268 0.5H3.91602L3.08268 1.33333H0.166016V3H11.8327V1.33333H8.91602L8.08268 0.5ZM10.9993 3.83333H0.999349V13.8333C0.999349 14.75 1.74935 15.5 2.66602 15.5H9.33268C10.2493 15.5 10.9993 14.75 10.9993 13.8333V3.83333Z"
+                                                            fill="#DA1E28" />
+                                                    </svg>
+                                                </div>
+                                                <span class="fw_600">Delete</span>
                                             </div>
                                         </button>
                                         <button role="button" class="btn border hover_lightgrey focus_none radius_8">
@@ -1312,13 +1322,12 @@
                                 <div class="col-md-4 col-sm-12 ">
                                     <div class="mt-2 mt-md-0">
                                         <div class="input-group flex-nowrap">
-                                            <span class="input-group-text bg_transparent font_md"
-                                                id="addon-wrapping">
+                                            <span class="input-group-text bg_transparent font_md" id="addon-wrapping">
                                                 <i class="fa fa-search"></i>
                                             </span>
                                             <input type="text" class="form-control focus_none font_md"
-                                                placeholder="Search anything"
-                                                aria-label="Username" aria-describedby="addon-wrapping">
+                                                placeholder="Search anything" aria-label="Username"
+                                                aria-describedby="addon-wrapping">
                                         </div>
                                     </div>
                                 </div>
@@ -1331,11 +1340,16 @@
                                             <thead>
                                                 <tr>
                                                     <th class="bg-dark th_first_tl_radius py-3">
-                                                        <input type="checkbox" name="" id="">
+                                                        <div class="custom_checkbox_container white">
+                                                            <label>
+                                                                <input type="checkbox" checked="checked">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                        </div>
                                                     </th>
                                                     <th class="bg-dark py-3">
                                                         <div class="az_ordered_data">
-                                                            <span class="pe-2 fw_400">No</span>
+                                                            <span class="pe-2 fw_500">No</span>
                                                             <div class="d-flex flex-column">
                                                                 <button role="button" class="border-0 bg_transparent"
                                                                     aria-label="ascending data">
@@ -1350,7 +1364,7 @@
                                                     </th>
                                                     <th class="bg-dark py-3">
                                                         <div class="az_ordered_data">
-                                                            <span class="pe-2 fw_400">Ticket Details</span>
+                                                            <span class="pe-2 fw_500">Ticket Details</span>
                                                             <div class="d-flex flex-column">
                                                                 <button role="button" class="border-0 bg_transparent"
                                                                     aria-label="ascending data">
@@ -1365,7 +1379,7 @@
                                                     </th>
                                                     <th class="bg-dark py-3">
                                                         <div class="az_ordered_data">
-                                                            <span class="pe-2 fw_400">User</span>
+                                                            <span class="pe-2 fw_500">User</span>
                                                             <div class="d-flex flex-column">
                                                                 <button role="button" class="border-0 bg_transparent"
                                                                     aria-label="ascending data">
@@ -1380,7 +1394,7 @@
                                                     </th>
                                                     <th class="bg-dark py-3">
                                                         <div class="az_ordered_data">
-                                                            <span class="pe-2 fw_400">Status</span>
+                                                            <span class="pe-2 fw_500">Status</span>
                                                             <div class="d-flex flex-column">
                                                                 <button role="button" class="border-0 bg_transparent"
                                                                     aria-label="ascending data">
@@ -1395,7 +1409,7 @@
                                                     </th>
                                                     <th class="bg-dark py-3">
                                                         <div class="az_ordered_data">
-                                                            <span class="pe-2 fw_400">Assign To</span>
+                                                            <span class="pe-2 fw_500">Assign To</span>
                                                             <div class="d-flex flex-column">
                                                                 <button role="button" class="border-0 bg_transparent"
                                                                     aria-label="ascending data">
@@ -1410,7 +1424,7 @@
                                                     </th>
                                                     <th class="bg-dark th_first_tr_radius py-3">
                                                         <div class="az_ordered_data">
-                                                            <span class="pe-2 fw_400">Action</span>
+                                                            <span class="pe-2 fw_500">Action</span>
                                                         </div>
                                                     </th>
                                                 </tr>
@@ -1425,40 +1439,69 @@
                                                 </tr>
                                                 <tr>
                                                     <td valign="middle" class="border-bottom border_light py-3">
-                                                        <input type="checkbox" class="form-check">
+                                                        <div class="custom_checkbox_container">
+                                                            <label>
+                                                                <input type="checkbox" checked="checked">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                        </div>
                                                     </td>
                                                     <td valign="middle" class="border-bottom border_light py-3">
                                                         <p class="text_darkgrey fw_600 font_sm">1</p>
                                                     </td>
                                                     <td valign="middle" class="border-bottom border_light py-3">
-                                                        <p class="text_darkgrey fw_600 font_sm">Test</p>
+                                                        <p class="text_darkgrey fw_700 font_sm">Test</p>
                                                         <div>
-                                                            <span class="text_darkgrey font_sm pe-3 border-end border_light no_break"
-                                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Ticket ID">SPG-1</span>
+                                                            <span
+                                                                class="text_darkgrey font_sm pe-3 border-end border_light no_break"
+                                                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                                                title="Ticket ID">SPG-1</span>
                                                             <span
                                                                 class="text_darkgrey ps-2 pe-3 font_sm border-end border_light no_break"
-                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Open Date"
-                                                                >
-                                                                <i class="fa fa-clock pe-1"></i>
+                                                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                                                title="Open Date">
+                                                                <div class="icon_wrapper d-inline pe-1">
+                                                                    <svg width="12" height="12" viewBox="0 0 12 12"
+                                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path
+                                                                            d="M5.33333 3.33333V6.66667L8.16667 8.34667L8.68 7.49333L6.33333 6.1V3.33333H5.33333ZM12 4.66667V0L10.24 1.76C9.16 0.673333 7.66 0 6 0C2.68667 0 0 2.68667 0 6C0 9.31333 2.68667 12 6 12C9.31333 12 12 9.31333 12 6H10.6667C10.6667 8.57333 8.57333 10.6667 6 10.6667C3.42667 10.6667 1.33333 8.57333 1.33333 6C1.33333 3.42667 3.42667 1.33333 6 1.33333C7.28667 1.33333 8.45333 1.86 9.3 2.7L7.33333 4.66667H12Z"
+                                                                            fill="#616161" />
+                                                                    </svg>
+                                                                </div>
                                                                 01 Feb,2023
                                                             </span>
                                                             <span
                                                                 class="font_sm pe-3 ps-2 text_darkgrey border-end border_light no_break"
-                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Category"
-                                                                >
-                                                                <i class="fa fa-th pe-1"></i>
+                                                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                                                title="Category">
+                                                                <div class="icon_wrapper d-inline pe-1">
+                                                                    <svg width="12" height="12" viewBox="0 0 12 12"
+                                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path
+                                                                            d="M0 0V5.33333H5.33333V0H0ZM4 4H1.33333V1.33333H4V4ZM0 6.66667V12H5.33333V6.66667H0ZM4 10.6667H1.33333V8H4V10.6667ZM6.66667 0V5.33333H12V0H6.66667ZM10.6667 4H8V1.33333H10.6667V4ZM6.66667 6.66667V12H12V6.66667H6.66667ZM10.6667 10.6667H8V8H10.6667V10.6667Z"
+                                                                            fill="#616161" />
+                                                                    </svg>
+                                                                </div>
                                                                 Ticket Support
                                                             </span>
-                                                            <span class="text_darkgrey ps-2 font_sm border_light no_break"
-                                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Date Created"
-                                                            >
-                                                                <i class="fa fa-clock pe-1"></i>
+                                                            <span
+                                                                class="text_darkgrey ps-2 font_sm border_light no_break"
+                                                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                                                title="Date Created">
+                                                                <div class="icon_wrapper d-inline pe-1">
+                                                                    <svg width="12" height="12" viewBox="0 0 12 12"
+                                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path
+                                                                            d="M5.33333 3.33333V6.66667L8.16667 8.34667L8.68 7.49333L6.33333 6.1V3.33333H5.33333ZM12 4.66667V0L10.24 1.76C9.16 0.673333 7.66 0 6 0C2.68667 0 0 2.68667 0 6C0 9.31333 2.68667 12 6 12C9.31333 12 12 9.31333 12 6H10.6667C10.6667 8.57333 8.57333 10.6667 6 10.6667C3.42667 10.6667 1.33333 8.57333 1.33333 6C1.33333 3.42667 3.42667 1.33333 6 1.33333C7.28667 1.33333 8.45333 1.86 9.3 2.7L7.33333 4.66667H12Z"
+                                                                            fill="#616161" />
+                                                                    </svg>
+                                                                </div>
                                                                 1 week ago
                                                             </span>
                                                         </div>
                                                     </td>
                                                     <td valign="middle" class="border-bottom border_light py-3">
-                                                        <p class="text_darkgrey font_sm">Guest</p>
+                                                        <p class="text_darkgrey fw_500 font_sm">Guest</p>
                                                     </td>
                                                     <td valign="middle" class="border-bottom border_light py-3">
                                                         <button
@@ -1468,17 +1511,20 @@
                                                     </td>
                                                     <td valign="middle" class="border-bottom border_light py-3">
                                                         <div class="dropdown me-2">
-                                                            <button class="btn bg_transparent radius_8 fw_500 font_sm focus_none text_primary border_light hover_lightgrey dropdown-toggle" type="button"
-                                                                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                                            <button
+                                                                class="btn bg_transparent radius_8 fw_600 font_sm focus_none text_primary border_light hover_lightgrey dropdown-toggle"
+                                                                type="button" data-bs-toggle="dropdown"
+                                                                data-bs-auto-close="outside" aria-expanded="false">
                                                                 Assign
                                                             </button>
-                                                            <ul class="dropdown-menu border-0 shadow radius_8" aria-labelledby="language select">
+                                                            <ul class="dropdown-menu border-0 shadow radius_8"
+                                                                aria-labelledby="language select">
                                                                 <li><button role="button"
-                                                                        class="border-0 bg_transparent text-start primary_hover px_12 show_check green_check bg_active_light fw_600 hover_fw_600 font_sm position-relative py-2 text_darkgrey w-100"
-                                                                        >Self Assign</button></li>
+                                                                        class="border-0 bg_transparent text-start primary_hover px_12 show_check green_check bg_active_light fw_600 hover_fw_600 font_sm position-relative py-2 text_darkgrey w-100">Self
+                                                                        Assign</button></li>
                                                                 <li><button role="button"
-                                                                        class="border-0 bg_transparent text-start primary_hover px_12 position-relative py-2 text_darkgrey font_sm hover_fw_600 w-100"
-                                                                        >Other Assign</button></li>
+                                                                        class="border-0 bg_transparent text-start primary_hover px_12 position-relative py-2 text_darkgrey font_sm hover_fw_600 w-100">Other
+                                                                        Assign</button></li>
                                                             </ul>
                                                         </div>
                                                     </td>
@@ -1486,114 +1532,26 @@
                                                         <div class="d-flex flex-row gap-2">
                                                             <button
                                                                 class="btn border_light radius_8 focus_none rounded-3 text_green"
-                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"
-                                                                >
+                                                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                                                title="Edit">
                                                                 <i class="fa fa-pen font_sm"></i>
                                                             </button>
                                                             <button
                                                                 class="btn focus_none border_light radius_8 rounded-3 text_darkred"
-                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"
-                                                                >
+                                                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                                                title="Delete">
                                                                 <i class="fa fa-trash-alt font_sm"></i>
                                                             </button>
                                                             <button
                                                                 class="btn focus_none border_light radius_8 rounded-3 text_primary"
-                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Preview"
-                                                                >
+                                                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                                                title="Preview">
                                                                 <i class="fa fa-lock font_sm"></i>
                                                             </button>
                                                             <button
                                                                 class="btn focus_none border_light radius_8 rounded-3 text_yellow"
-                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Preview"
-                                                                >
-                                                                <i class="fa fa-external-link font_sm"></i>
-                                                            </button>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td valign="middle" class="py-3">
-                                                        <input type="checkbox" class="form-check">
-                                                    </td>
-                                                    <td valign="middle" class="py-3">
-                                                        <p class="text_darkgrey fw_600 font_sm">1</p>
-                                                    </td>
-                                                    <td valign="middle" class="py-3">
-                                                        <p class="text_darkgrey fw_600 font_sm">Test</p>
-                                                        <div>
-                                                            <span class="text_darkgrey font_sm pe-3 border-end border_light no_break"
-                                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Ticket ID">SPG-1</span>
-                                                            <span
-                                                                class="text_darkgrey ps-2 pe-3 font_sm border-end border_light no_break"
-                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Open Date"
-                                                                >
-                                                                <i class="fa fa-clock pe-1"></i>
-                                                                01 Feb,2023
-                                                            </span>
-                                                            <span
-                                                                class="font_sm pe-3 ps-2 text_darkgrey border-end border_light no_break"
-                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Category"
-                                                                >
-                                                                <i class="fa fa-th pe-1"></i>
-                                                                Ticket Support
-                                                            </span>
-                                                            <span class="text_darkgrey ps-2 font_sm border_light no_break"
-                                                            data-bs-toggle="tooltip" data-bs-placement="top" title="Date Created"
-                                                            >
-                                                                <i class="fa fa-clock pe-1"></i>
-                                                                1 week ago
-                                                            </span>
-                                                        </div>
-                                                    </td>
-                                                    <td valign="middle" class="py-3">
-                                                        <p class="text_darkgrey font_sm">Guest</p>
-                                                    </td>
-                                                    <td valign="middle" class="py-3">
-                                                        <button
-                                                            class="border_light fw_600 radius_8 btn focus_none font_sm text_primary">
-                                                            New
-                                                        </button>
-                                                    </td>
-                                                    <td valign="middle" class="py-3">
-                                                        <div class="dropdown me-2">
-                                                            <button class="btn bg_transparent radius_8 fw_500 font_sm focus_none text_primary border_light hover_lightgrey dropdown-toggle" type="button"
-                                                                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-                                                                Assign
-                                                            </button>
-                                                            <ul class="dropdown-menu border-0 shadow radius_8" aria-labelledby="language select">
-                                                                <li><button role="button"
-                                                                        class="border-0 bg_transparent text-start primary_hover px_12 show_check green_check bg_active_light fw_600 hover_fw_600 font_sm position-relative py-2 text_darkgrey w-100"
-                                                                        >Self Assign</button></li>
-                                                                <li><button role="button"
-                                                                        class="border-0 bg_transparent text-start primary_hover px_12 position-relative py-2 text_darkgrey font_sm hover_fw_600 w-100"
-                                                                        >Other Assign</button></li>
-                                                            </ul>
-                                                        </div>
-                                                    </td>
-                                                    <td valign="middle" class="py-3">
-                                                        <div class="d-flex flex-row gap-2">
-                                                            <button
-                                                                class="btn border_light radius_8 focus_none rounded-3 text_green"
-                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"
-                                                                >
-                                                                <i class="fa fa-pen font_sm"></i>
-                                                            </button>
-                                                            <button
-                                                                class="btn focus_none border_light radius_8 rounded-3 text_darkred"
-                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"
-                                                                >
-                                                                <i class="fa fa-trash-alt font_sm"></i>
-                                                            </button>
-                                                            <button
-                                                                class="btn focus_none border_light radius_8 rounded-3 text_primary"
-                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Preview"
-                                                                >
-                                                                <i class="fa fa-lock font_sm"></i>
-                                                            </button>
-                                                            <button
-                                                                class="btn focus_none border_light radius_8 rounded-3 text_yellow"
-                                                                data-bs-toggle="tooltip" data-bs-placement="top" title="Preview"
-                                                                >
+                                                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                                                title="Preview">
                                                                 <i class="fa fa-external-link font_sm"></i>
                                                             </button>
                                                         </div>
