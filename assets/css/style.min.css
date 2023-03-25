@@ -295,7 +295,6 @@ a, a:hover {
   justify-content: center;
 }
 .az_no_data p {
-  font-weight: 600;
   color: var(--greyDark);
 }
 
@@ -354,7 +353,8 @@ a, a:hover {
 .az_pagination_container .inner_wrapper div:last-child p {
   color: var(--textDark);
   font-size: 0.785rem;
-  margin-right: 5px;
+  font-weight: 500;
+  margin-right: 10px;
 }
 .az_pagination_container .inner_wrapper div:last-child input {
   color: var(--grey);
@@ -674,6 +674,9 @@ html[dir=rtl] .az_notification_dropdown .notification_item p {
 #az-web-aside .az_primary_nav .fa-star {
   color: var(--yellow);
 }
+#az-web-aside .az_nav_dropdown span {
+  padding-right: 0.785rem;
+}
 #az-web-aside a span,
 #az-web-aside button span {
   color: inherit;
@@ -932,6 +935,10 @@ html[dir=rtl] .az_notification_dropdown .notification_item p {
 .az_ticket_cards_container .card h6 {
   font-weight: 700;
   color: var(--textDark);
+}
+
+.home_screen_tc table tr:last-child td {
+  border-bottom: 0 !important;
 }
 
 html[dir=ltr] .home_screen_tc .input-group.flex-nowrap input {
